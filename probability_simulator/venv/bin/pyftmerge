@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/Users/parthpatel/Library/CloudStorage/GoogleDrive-pparth230@gmail.com/Other computers/My Computer/DT_Masters/Machine learning/Python/probability_simulator/venv/bin/python3.11" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from fontTools.merge import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
